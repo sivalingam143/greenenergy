@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9038fe31.css",
+    "main.js": "/static/js/main.f8e6c193.js",
+    "static/media/login_two.png": "/static/media/login_two.1b9a13b3b93f892bd6ce.png",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/gif.gif": "/static/media/gif.e1db5921168eb4507405.gif",
+    "static/media/MYRIADPRO-BOLD.OTF": "/static/media/MYRIADPRO-BOLD.24292333c91aa133bd2f.OTF",
+    "static/media/MYRIADPRO-REGULAR.OTF": "/static/media/MYRIADPRO-REGULAR.6c518fcde55bd3397d56.OTF",
+    "static/media/logo.jpeg": "/static/media/logo.8eb7b99c21989f60d409.jpeg",
+    "static/media/srivarulogo.png": "/static/media/srivarulogo.c88677687a7b7839a92b.png",
+    "index.html": "/index.html",
+    "main.9038fe31.css.map": "/static/css/main.9038fe31.css.map",
+    "main.f8e6c193.js.map": "/static/js/main.f8e6c193.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9038fe31.css",
+    "static/js/main.f8e6c193.js"
+  ]
+}
