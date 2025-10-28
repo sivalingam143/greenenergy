@@ -1,8 +1,5 @@
 import axios from "axios";
-const API_URL = "http://api.demos.srivarugreenenergy.com";
-//const API_URL = "https://cors-anywhere.herokuapp.com/http://api.demos.srivarugreenenergy.com";
-// const API_URL =("https://cors-anywhere.herokuapp.com/http://api.srivarugreenenergy.com");
-// const API_URL = "http://localhost/admin_srivaru/api";
+const API_URL = " https://greenenergy.zentexus.in/api;";
 
 const axiosInstance = axios.create({
   baseURL: API_URL,
@@ -12,5 +9,3 @@ const axiosInstance = axios.create({
 });
 
 export default axiosInstance;
-// /http://api.srivarugreenenergy.com
-// https://cors-anywhere.herokuapp.com/http://api.srivarugreenenergy.com;
