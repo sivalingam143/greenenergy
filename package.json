@@ -1,0 +1,97 @@
+{
+  "name": "greenenergy",
+  "version": "0.1.0",
+  "proxy": "http://localhost/",
+  "private": true,
+  "main": " index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf/renderer": "^4.0.0",
+    "@reduxjs/toolkit": "^2.2.8",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.26.1",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "classnames": "^2.5.1",
+    "file-saver": "^2.0.5",
+    "js-cookie": "^3.0.5",
+    "json-server": "^1.0.0-beta.3",
+    "jwt-decode": "^4.0.0",
+    "mammoth": "^1.8.0",
+    "moment": "^2.30.1",
+    "multiselect-react-dropdown": "^2.0.25",
+    "nodemon": "^2.0.7",
+    "papaparse": "^5.4.1",
+    "quill": "^2.0.2",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-datepicker": "^7.4.0",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.3.0",
+    "react-loading-skeleton": "^3.5.0",
+    "react-pdf": "^9.1.1",
+    "react-quill": "^2.0.0",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.10.2",
+    "react-signature-canvas": "^1.1.0-alpha.2",
+    "react-time-picker": "^7.0.0",
+    "react-toastify": "^10.0.6",
+    "react-trello": "^2.2.11",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "sweetalert2": "^11.22.2",
+    "sweetalert2-react-content": "^5.1.0",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "build": {
+    "appId": "com.zentexuspanel.app",
+    "files": [
+      "build/**/*",
+      "main.js",
+      "preload.js"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/register": "^7.25.9",
+    "electron": "^22.0.0"
+  }
+}
