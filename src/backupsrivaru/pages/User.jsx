@@ -171,8 +171,8 @@ const User = () => {
       profile_image: rowdata.profile_image, 
       sign_image: rowdata.sign_image, 
     });
-    setSelectedImage(`https://api.demos.srivarugreenenergy.com/user/${rowdata.profile_image}`);
-    setSelectedSignImage(`https://api.demos.srivarugreenenergy.com/user/${rowdata.sign_image}`);
+    setSelectedImage(`https://greenenergy.zentexus.in/api/user/${rowdata.profile_image}`);
+    setSelectedSignImage(`https://greenenergy.zentexus.in/api/user/${rowdata.sign_image}`);
     setShowModal(true);
   };
   const handleChange = (e, fieldName) => {
@@ -212,7 +212,7 @@ const User = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/user/list.php",
+        "https://greenenergy.zentexus.in/api/user/list.php",
         {
           method: "POST",
           headers: {
@@ -279,7 +279,7 @@ const User = () => {
   //       }
   //     } else {
   //       const response = await fetch(
-  //         "https://api.demos.srivarugreenenergy.com/user/create.php",
+  //         "https://greenenergy.zentexus.in/api/user/create.php",
   //         {
   //           method: "POST",
   //           headers: {
@@ -345,7 +345,7 @@ const User = () => {
         }
 
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/user/create.php",
+          "https://greenenergy.zentexus.in/api/user/create.php",
           {
             method: "POST",
             body: formDataToSend, // Send the FormData object
@@ -419,7 +419,7 @@ const User = () => {
   
       // Send the FormData in the request
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/user/update.php",
+        "https://greenenergy.zentexus.in/api/user/update.php",
         {
           method: "POST",
           body: formDataToSend, // Send the FormData object
@@ -467,7 +467,7 @@ const User = () => {
   //     };
   //     console.log("ji", data);
   //     const response = await fetch(
-  //       "https://api.demos.srivarugreenenergy.com/user/update.php",
+  //       "https://greenenergy.zentexus.in/api/user/update.php",
   //       {
   //         method: "POST",
   //         headers: {
@@ -528,7 +528,7 @@ const User = () => {
   const fetchDataRole = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/role/list.php",
+        "https://greenenergy.zentexus.in/api/role/list.php",
         {
           method: "POST",
           headers: {
@@ -569,7 +569,7 @@ const User = () => {
         }
       } else {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/role/create.php",
+          "https://greenenergy.zentexus.in/api/role/create.php",
           {
             method: "POST",
             headers: {

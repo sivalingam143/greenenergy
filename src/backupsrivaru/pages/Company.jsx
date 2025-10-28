@@ -54,7 +54,7 @@ const Company = () => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/company/list.php",
+        "https://greenenergy.zentexus.in/api/company/list.php",
         {
           method: "POST",
           headers: {
@@ -113,7 +113,7 @@ const Company = () => {
   const handleUpdateSubmit = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/company/update.php",
+        "https://greenenergy.zentexus.in/api/company/update.php",
         {
           method: "POST",
           headers: {

@@ -72,7 +72,7 @@ const DailyGeneration = ({ onFileChange }) => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/daily_generation/list.php",
+        "https://greenenergy.zentexus.in/api/daily_generation/list.php",
         {
           method: "POST",
           headers: {
@@ -98,7 +98,7 @@ const DailyGeneration = ({ onFileChange }) => {
       }
 
       const errorResponse = await fetch(
-        "https://api.demos.srivarugreenenergy.com/error/list.php",
+        "https://greenenergy.zentexus.in/api/error/list.php",
         {
           method: "POST",
           headers: {
@@ -124,7 +124,7 @@ const DailyGeneration = ({ onFileChange }) => {
 
 
       const maintenanceResponse = await fetch(
-        "https://api.demos.srivarugreenenergy.com/maintenance/list.php",
+        "https://greenenergy.zentexus.in/api/maintenance/list.php",
         {
           method: "POST",
           headers: {
@@ -148,7 +148,7 @@ const DailyGeneration = ({ onFileChange }) => {
       }
 
       const gridFaultResponse = await fetch(
-        "https://api.demos.srivarugreenenergy.com/grid_fault/list.php",
+        "https://greenenergy.zentexus.in/api/grid_fault/list.php",
         {
           method: "POST",
           headers: {
@@ -173,7 +173,7 @@ const DailyGeneration = ({ onFileChange }) => {
 
 
       const gridDropResponse = await fetch(
-        "https://api.demos.srivarugreenenergy.com/grid_drop/list.php",
+        "https://greenenergy.zentexus.in/api/grid_drop/list.php",
         {
           method: "POST",
           headers: {
@@ -197,7 +197,7 @@ const DailyGeneration = ({ onFileChange }) => {
       }
 
       const turbineResponse = await fetch(
-        "https://api.demos.srivarugreenenergy.com/turbine/listing.php",
+        "https://greenenergy.zentexus.in/api/turbine/listing.php",
         {
           method: "POST",
           headers: {
@@ -288,7 +288,7 @@ const DailyGeneration = ({ onFileChange }) => {
   const fetchDatas = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/daily_generation/dgrverified.php",
+        "https://greenenergy.zentexus.in/api/daily_generation/dgrverified.php",
         {
           method: "POST",
           headers: {
@@ -630,7 +630,7 @@ const DailyGeneration = ({ onFileChange }) => {
       setIsLoading(true); // Show loader
 
       const bulkResponse = await fetch(
-        "https://api.demos.srivarugreenenergy.com/daily_generation/bulkcreate.php",
+        "https://greenenergy.zentexus.in/api/daily_generation/bulkcreate.php",
         {
           method: "POST",
           headers: {

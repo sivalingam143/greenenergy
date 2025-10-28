@@ -89,7 +89,7 @@ const GridDrop = ({ modeltitle = "Create", labelname = "Upload Excel" }) => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/grid_drop/list.php",
+        "https://greenenergy.zentexus.in/api/grid_drop/list.php",
         {
           method: "POST",
           headers: {
@@ -157,7 +157,7 @@ const GridDrop = ({ modeltitle = "Create", labelname = "Upload Excel" }) => {
         }
       } else {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/grid_drop/create.php",
+          "https://greenenergy.zentexus.in/api/grid_drop/create.php",
           {
             method: "POST",
             headers: {
@@ -203,7 +203,7 @@ const GridDrop = ({ modeltitle = "Create", labelname = "Upload Excel" }) => {
   const handleUpdateSubmit = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/grid_drop/update.php",
+        "https://greenenergy.zentexus.in/api/grid_drop/update.php",
         {
           method: "POST",
           headers: {

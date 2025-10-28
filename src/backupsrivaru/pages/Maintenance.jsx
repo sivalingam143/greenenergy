@@ -91,7 +91,7 @@ const Maintenance = ({ modeltitle = "Create", labelname = "Upload Excel" }) => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/maintenance/list.php",
+        "https://greenenergy.zentexus.in/api/maintenance/list.php",
         {
           method: "POST",
           headers: {
@@ -159,7 +159,7 @@ const Maintenance = ({ modeltitle = "Create", labelname = "Upload Excel" }) => {
         }
       } else {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/maintenance/create.php",
+          "https://greenenergy.zentexus.in/api/maintenance/create.php",
           {
             method: "POST",
             headers: {
@@ -205,7 +205,7 @@ const Maintenance = ({ modeltitle = "Create", labelname = "Upload Excel" }) => {
   const handleUpdateSubmit = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/maintenance/update.php",
+        "https://greenenergy.zentexus.in/api/maintenance/update.php",
         {
           method: "POST",
           headers: {

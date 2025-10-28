@@ -237,7 +237,7 @@ const TurbineCreation = () => {
   //   });
   // };
   // const getPdfFileUrl = (fileName) => {
-  //   return `https://api.demos.srivarugreenenergy.com/uploads/${fileName}`;
+  //   return `https://greenenergy.zentexus.in/api/uploads/${fileName}`;
   // };
 
   // useEffect(() => {
@@ -264,7 +264,7 @@ const TurbineCreation = () => {
     console.log("fileName.....", fileName);
     console.log("fileName Id.....", pdfId);
 
-    return `https://api.demos.srivarugreenenergy.com/uploads/${pdfId}_${fileName}`;
+    return `https://greenenergy.zentexus.in/api/uploads/${pdfId}_${fileName}`;
   };
 
   // Adjusted useEffect to handle "edit" state and set fileName
@@ -373,7 +373,7 @@ const TurbineCreation = () => {
 
       // Make API call
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/pdfadmin/create.php",
+        "https://greenenergy.zentexus.in/api/pdfadmin/create.php",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -432,7 +432,7 @@ const TurbineCreation = () => {
 
       // Make API call to update existing PDF files
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/pdfadmin/update.php",
+        "https://greenenergy.zentexus.in/api/pdfadmin/update.php",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -475,7 +475,7 @@ const TurbineCreation = () => {
       });
       if (result.isConfirmed) {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/pdfadmin/delete.php",
+          "https://greenenergy.zentexus.in/api/pdfadmin/delete.php",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -578,7 +578,7 @@ const TurbineCreation = () => {
   //         });
   //       }
 
-  //       const response = await fetch("https://api.demos.srivarugreenenergy.com/turbine/create.php",
+  //       const response = await fetch("https://greenenergy.zentexus.in/api/turbine/create.php",
   //         {
   //           method: "POST",
   //           body: formDataBody,
@@ -710,7 +710,7 @@ const TurbineCreation = () => {
       };
 
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/turbine/create.php",
+        "https://greenenergy.zentexus.in/api/turbine/create.php",
         {
           method: "POST",
           headers: {
@@ -769,7 +769,7 @@ const TurbineCreation = () => {
 
       // Send JSON data in the request body
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/turbine/update.php",
+        "https://greenenergy.zentexus.in/api/turbine/update.php",
         {
           method: "POST",
           headers: {
@@ -823,7 +823,7 @@ const TurbineCreation = () => {
   //       }
   //     });
 
-  //     const response = await fetch("https://api.demos.srivarugreenenergy.com/turbine/create.php", {
+  //     const response = await fetch("https://greenenergy.zentexus.in/api/turbine/create.php", {
   //       method: "POST",
   //       body: formDataBody,
   //     });
@@ -863,7 +863,7 @@ const TurbineCreation = () => {
   //       }
   //     });
 
-  //     const response = await fetch("https://api.demos.srivarugreenenergy.com/turbine/update.php",
+  //     const response = await fetch("https://greenenergy.zentexus.in/api/turbine/update.php",
   //       {
   //         method: "POST",
   //         body: formDataBody, // Use FormData here
@@ -896,7 +896,7 @@ const TurbineCreation = () => {
 
   // const handleUpdateSubmit = async () => {
   //   try {
-  //     const response = await fetch("https://api.demos.srivarugreenenergy.com/turbine/update.php",
+  //     const response = await fetch("https://greenenergy.zentexus.in/api/turbine/update.php",
   //       {
   //         method: "POST",
   //         headers: {
@@ -1070,7 +1070,7 @@ const TurbineCreation = () => {
   const fetchDataCustomer = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/customer/list.php",
+        "https://greenenergy.zentexus.in/api/customer/list.php",
         {
           method: "POST",
           headers: {
@@ -1102,7 +1102,7 @@ const TurbineCreation = () => {
   const fetchDataSite = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/site/list.php",
+        "https://greenenergy.zentexus.in/api/site/list.php",
         {
           method: "POST",
           headers: {
@@ -1140,7 +1140,7 @@ const TurbineCreation = () => {
         }
       } else {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/site/create.php",
+          "https://greenenergy.zentexus.in/api/site/create.php",
           {
             method: "POST",
             headers: {
@@ -1203,7 +1203,7 @@ const TurbineCreation = () => {
   const fetchDataLocation = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/location/list.php",
+        "https://greenenergy.zentexus.in/api/location/list.php",
         {
           method: "POST",
           headers: {
@@ -1239,7 +1239,7 @@ const TurbineCreation = () => {
         }
       } else {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/location/create.php",
+          "https://greenenergy.zentexus.in/api/location/create.php",
           {
             method: "POST",
             headers: {
@@ -1291,7 +1291,7 @@ const TurbineCreation = () => {
   const fetchDataModel = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/model/list.php",
+        "https://greenenergy.zentexus.in/api/model/list.php",
         {
           method: "POST",
           headers: {
@@ -1327,7 +1327,7 @@ const TurbineCreation = () => {
         }
       } else {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/model/create.php",
+          "https://greenenergy.zentexus.in/api/model/create.php",
           {
             method: "POST",
             headers: {
@@ -1378,7 +1378,7 @@ const TurbineCreation = () => {
   const fetchDataContract = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/contract_type/list.php",
+        "https://greenenergy.zentexus.in/api/contract_type/list.php",
         {
           method: "POST",
           headers: {
@@ -1416,7 +1416,7 @@ const TurbineCreation = () => {
         }
       } else {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/contract_type/create.php",
+          "https://greenenergy.zentexus.in/api/contract_type/create.php",
           {
             method: "POST",
             headers: {

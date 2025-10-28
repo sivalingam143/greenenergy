@@ -62,7 +62,7 @@ const CustomerGroup = () => {
     };
     const fetchData = async () => {
         try {
-            const response = await fetch('https://api.demos.srivarugreenenergy.com/customergroup/list.php', {
+            const response = await fetch('https://greenenergy.zentexus.in/api/customergroup/list.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -126,7 +126,7 @@ const CustomerGroup = () => {
                     errorAlert("Name is Must");
                 }
             } else {
-                const response = await fetch('https://api.demos.srivarugreenenergy.com/customergroup/create.php', {
+                const response = await fetch('https://greenenergy.zentexus.in/api/customergroup/create.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -164,7 +164,7 @@ const CustomerGroup = () => {
     };
     const handleUpdateSubmit = async () => {
         try {
-            const response = await fetch('https://api.demos.srivarugreenenergy.com/customergroup/update.php', {
+            const response = await fetch('https://greenenergy.zentexus.in/api/customergroup/update.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

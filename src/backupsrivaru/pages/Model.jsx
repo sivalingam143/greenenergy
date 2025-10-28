@@ -60,7 +60,7 @@ const ContractType = () => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/model/list.php",
+        "https://greenenergy.zentexus.in/api/model/list.php",
         {
           method: "POST",
           headers: {
@@ -125,7 +125,7 @@ const ContractType = () => {
         }
       } else {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/model/create.php",
+          "https://greenenergy.zentexus.in/api/model/create.php",
           {
             method: "POST",
             headers: {
@@ -161,7 +161,7 @@ const ContractType = () => {
   const handleUpdateSubmit = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/model/update.php",
+        "https://greenenergy.zentexus.in/api/model/update.php",
         {
           method: "POST",
           headers: {

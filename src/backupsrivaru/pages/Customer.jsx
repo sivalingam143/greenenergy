@@ -72,7 +72,7 @@ const Customer = () => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/customer/list.php",
+        "https://greenenergy.zentexus.in/api/customer/list.php",
         {
           method: "POST",
           headers: {

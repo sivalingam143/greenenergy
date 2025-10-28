@@ -13,7 +13,7 @@ const DashBoard = () => {
   console.log("dgrdaily", dgrdaily)
   const fetchData = async () => {
     try {
-      const response = await fetch("https://api.demos.srivarugreenenergy.com/adminapi/turbine.php",
+      const response = await fetch("https://greenenergy.zentexus.in/api/adminapi/turbine.php",
         {
           method: "POST",
           headers: {
@@ -45,7 +45,7 @@ const DashBoard = () => {
   console.log("dgrdailyAll", dgrdailyAll)
   const fetchDataAll = async () => {
     try {
-      const response = await fetch("https://api.demos.srivarugreenenergy.com/adminapi/dailygen.php",
+      const response = await fetch("https://greenenergy.zentexus.in/api/adminapi/dailygen.php",
         {
           method: "POST",
           headers: {
@@ -78,7 +78,7 @@ const DashBoard = () => {
   console.log("dgrYes", dgrYes)
   const fetchDataYes = async () => {
     try {
-      const response = await fetch("https://api.demos.srivarugreenenergy.com/adminapi/tur.php",
+      const response = await fetch("https://greenenergy.zentexus.in/api/adminapi/tur.php",
         {
           method: "POST",
           headers: {

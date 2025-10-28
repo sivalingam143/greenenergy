@@ -58,7 +58,7 @@ const Turbine = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/turbine/list.php",
+        "https://greenenergy.zentexus.in/api/turbine/list.php",
         {
           method: "POST",
           headers: {

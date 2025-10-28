@@ -19,7 +19,7 @@ const Gallery = () => {
     const [editImage, setEditImage] = useState(null);
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 9;
-    const BASE_URL = "https://api.demos.srivarugreenenergy.com/uploads/";
+    const BASE_URL = "https://greenenergy.zentexus.in/api/uploads/";
 
     const closeModal = () => {
         setModal(false);
@@ -31,7 +31,7 @@ const Gallery = () => {
 
     const fetchImages = async () => {
         try {
-            const response = await axios.get("https://api.demos.srivarugreenenergy.com/imageweb/list.php");
+            const response = await axios.get("https://greenenergy.zentexus.in/api/imageweb/list.php");
             setImageList(response.data.images || []);
         } catch (error) {
             toast.error("Failed to fetch images. Please try again.");
@@ -67,7 +67,7 @@ const Gallery = () => {
 
         try {
             const response = await axios.post(
-                "https://api.demos.srivarugreenenergy.com/imageweb/create.php",
+                "https://greenenergy.zentexus.in/api/imageweb/create.php",
                 newFormData
             );
 
@@ -95,7 +95,7 @@ const Gallery = () => {
 
         try {
             const response = await axios.post(
-                "https://api.demos.srivarugreenenergy.com/imageweb/update.php",
+                "https://greenenergy.zentexus.in/api/imageweb/update.php",
                 newFormData
             );
 
@@ -134,7 +134,7 @@ const Gallery = () => {
                     formData.append("img_id", img_id);
 
                     const response = await axios.post(
-                        "https://api.demos.srivarugreenenergy.com/imageweb/delete.php",
+                        "https://greenenergy.zentexus.in/api/imageweb/delete.php",
                         formData
                     );
 

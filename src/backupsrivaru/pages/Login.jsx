@@ -27,7 +27,7 @@ const Login = ({ onLogin }) => {
                 password: password
             };
 
-            const response = await fetch('https://api.demos.srivarugreenenergy.com/login/login.php', {
+            const response = await fetch('https://greenenergy.zentexus.in/api/login/login.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

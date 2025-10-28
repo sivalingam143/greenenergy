@@ -76,7 +76,7 @@ const Error = ({ modeltitle = "create", labelname = "Upload Excel" }) => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/error/list.php",
+        "https://greenenergy.zentexus.in/api/error/list.php",
         {
           method: "POST",
           headers: {
@@ -135,7 +135,7 @@ const Error = ({ modeltitle = "create", labelname = "Upload Excel" }) => {
   const handleSubmit = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/error/create.php",
+        "https://greenenergy.zentexus.in/api/error/create.php",
         {
           method: "POST",
           headers: {
@@ -171,7 +171,7 @@ const Error = ({ modeltitle = "create", labelname = "Upload Excel" }) => {
   const handleUpdateSubmit = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/error/update.php",
+        "https://greenenergy.zentexus.in/api/error/update.php",
         {
           method: "POST",
           headers: {

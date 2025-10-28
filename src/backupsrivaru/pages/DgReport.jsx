@@ -59,7 +59,7 @@ const DgReport = () => {
   const fetchDataErrorData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/error/list.php",
+        "https://greenenergy.zentexus.in/api/error/list.php",
         {
           method: "POST",
           headers: {
@@ -90,7 +90,7 @@ const DgReport = () => {
   const fetchDataMaintenData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/maintenance/list.php",
+        "https://greenenergy.zentexus.in/api/maintenance/list.php",
         {
           method: "POST",
           headers: {
@@ -122,7 +122,7 @@ const DgReport = () => {
   const fetchDataTurbine = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/turbine/listing.php",
+        "https://greenenergy.zentexus.in/api/turbine/listing.php",
         {
           method: "POST",
           headers: {
@@ -161,7 +161,7 @@ const DgReport = () => {
   const fetchDataCustomer = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/customer/listing.php",
+        "https://greenenergy.zentexus.in/api/customer/listing.php",
         {
           method: "POST",
           headers: {
@@ -203,7 +203,7 @@ const DgReport = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/daily_generation/dgrreport.php",
+        "https://greenenergy.zentexus.in/api/daily_generation/dgrreport.php",
         {
           method: "POST",
           headers: {

@@ -69,7 +69,7 @@ const Role = () => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/role/list.php",
+        "https://greenenergy.zentexus.in/api/role/list.php",
         {
           method: "POST",
           headers: {
@@ -134,7 +134,7 @@ const Role = () => {
         }
       } else {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/role/create.php",
+          "https://greenenergy.zentexus.in/api/role/create.php",
           {
             method: "POST",
             headers: {
@@ -170,7 +170,7 @@ const Role = () => {
   const handleUpdateSubmit = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/role/update.php",
+        "https://greenenergy.zentexus.in/api/role/update.php",
         {
           method: "POST",
           headers: {

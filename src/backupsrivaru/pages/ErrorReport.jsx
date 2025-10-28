@@ -61,7 +61,7 @@ const ErrorReport = () => {
   const fetchDataErrorData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/error/list.php",
+        "https://greenenergy.zentexus.in/api/error/list.php",
         {
           method: "POST",
           headers: {
@@ -92,7 +92,7 @@ const ErrorReport = () => {
   const fetchDataDropData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/grid_drop/list.php",
+        "https://greenenergy.zentexus.in/api/grid_drop/list.php",
         {
           method: "POST",
           headers: {
@@ -122,7 +122,7 @@ const ErrorReport = () => {
   const fetchDataMaintenData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/maintenance/list.php",
+        "https://greenenergy.zentexus.in/api/maintenance/list.php",
         {
           method: "POST",
           headers: {
@@ -152,7 +152,7 @@ const ErrorReport = () => {
   const fetchDataFaultData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/grid_fault/list.php",
+        "https://greenenergy.zentexus.in/api/grid_fault/list.php",
         {
           method: "POST",
           headers: {
@@ -182,7 +182,7 @@ const ErrorReport = () => {
   const fetchDataModalData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/model/list.php",
+        "https://greenenergy.zentexus.in/api/model/list.php",
         {
           method: "POST",
           headers: {
@@ -214,7 +214,7 @@ const ErrorReport = () => {
   const fetchDataTurbine = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/turbine/list.php",
+        "https://greenenergy.zentexus.in/api/turbine/list.php",
         {
           method: "POST",
           headers: {
@@ -256,7 +256,7 @@ const ErrorReport = () => {
   const fetchDataCustomer = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/customer/list.php",
+        "https://greenenergy.zentexus.in/api/customer/list.php",
         {
           method: "POST",
           headers: {
@@ -296,7 +296,7 @@ const ErrorReport = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/daily_generation/dgrreport.php",
+        "https://greenenergy.zentexus.in/api/daily_generation/dgrreport.php",
         {
           method: "POST",
           headers: {

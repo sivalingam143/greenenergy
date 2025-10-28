@@ -124,7 +124,7 @@ const TableUI = ({
           label: "Delete", icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/user/delete.php",
+              "https://greenenergy.zentexus.in/api/user/delete.php",
               "user",
               "user_id",
               row.user_id
@@ -149,7 +149,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/role/delete.php",
+              "https://greenenergy.zentexus.in/api/role/delete.php",
               "image",
               "role_id",
               row.role_id
@@ -165,7 +165,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/role/delete.php",
+              "https://greenenergy.zentexus.in/api/role/delete.php",
               "Role",
               "role_id",
               row.role_id
@@ -185,7 +185,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/contract_type/delete.php",
+              "https://greenenergy.zentexus.in/api/contract_type/delete.php",
               "Contract",
               "contract_id",
               row.contract_id
@@ -206,7 +206,7 @@ const TableUI = ({
           label: "Delete", icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/site/delete.php",
+              "https://greenenergy.zentexus.in/api/site/delete.php",
               "Site",
               "site_id",
               row.site_id
@@ -226,7 +226,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/location/delete.php",
+              "https://greenenergy.zentexus.in/api/location/delete.php",
               "Location",
               "location_id",
               row.location_id
@@ -242,7 +242,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/model/delete.php",
+              "https://greenenergy.zentexus.in/api/model/delete.php",
               "Model",
               "model_id",
               row.model_id
@@ -262,7 +262,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/customergroup/delete.php",
+              "https://greenenergy.zentexus.in/api/customergroup/delete.php",
               "CustomerGroup",
               "customergroup_uniq_id",
               row.customergroup_uniq_id
@@ -291,7 +291,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/customer/delete.php",
+              "https://greenenergy.zentexus.in/api/customer/delete.php",
               "Customer",
               "customer_unique_id",
               row.customer_unique_id
@@ -318,7 +318,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/turbine/delete.php",
+              "https://greenenergy.zentexus.in/api/turbine/delete.php",
               "Turbine",
               "turbine_id",
               row.turbine_id
@@ -338,7 +338,7 @@ const TableUI = ({
           label: "Delete", icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/error/delete.php",
+              "https://greenenergy.zentexus.in/api/error/delete.php",
               "Error",
               "error_id",
               row.error_id
@@ -358,7 +358,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/grid_fault/delete.php",
+              "https://greenenergy.zentexus.in/api/grid_fault/delete.php",
               "Grid",
               "grid_fault_id",
               row.grid_fault_id
@@ -378,7 +378,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/grid_drop/delete.php",
+              "https://greenenergy.zentexus.in/api/grid_drop/delete.php",
               "Griddrop",
               "grid_drop_id",
               row.grid_drop_id
@@ -398,7 +398,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/maintenance/delete.php",
+              "https://greenenergy.zentexus.in/api/maintenance/delete.php",
               "Maintenance",
               "maintenance_id",
               row.maintenance_id
@@ -423,7 +423,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/daily_generation/delete.php",
+              "https://greenenergy.zentexus.in/api/daily_generation/delete.php",
               "Dailygen",
               "daily_generation_id",
               row.daily_generation_id
@@ -442,7 +442,7 @@ const TableUI = ({
           label: "Delete",icon: FaTrash,
           onClick: (row) =>
             confirmDelete(
-              "https://api.demos.srivarugreenenergy.com/grid_drop/delete.php",
+              "https://greenenergy.zentexus.in/api/grid_drop/delete.php",
               "Griddrop",
               "grid_drop_id",
               row.grid_drop_id

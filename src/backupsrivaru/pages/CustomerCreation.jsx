@@ -238,7 +238,7 @@ const CustomerCreation = () => {
   const handleSubmit = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/customer/create.php",
+        "https://greenenergy.zentexus.in/api/customer/create.php",
         {
           method: "POST",
           headers: {
@@ -279,7 +279,7 @@ const CustomerCreation = () => {
   const handleUpdateSubmit = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/customer/update.php",
+        "https://greenenergy.zentexus.in/api/customer/update.php",
         {
           method: "POST",
           headers: {
@@ -357,7 +357,7 @@ const CustomerCreation = () => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/customergroup/list.php",
+        "https://greenenergy.zentexus.in/api/customergroup/list.php",
         {
           method: "POST",
           headers: {

@@ -79,7 +79,7 @@ const Location = () => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/location/list.php",
+        "https://greenenergy.zentexus.in/api/location/list.php",
         {
           method: "POST",
           headers: {
@@ -144,7 +144,7 @@ const Location = () => {
         }
       } else {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/location/create.php",
+          "https://greenenergy.zentexus.in/api/location/create.php",
           {
             method: "POST",
             headers: {
@@ -182,7 +182,7 @@ const Location = () => {
   const handleUpdateSubmit = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/location/update.php",
+        "https://greenenergy.zentexus.in/api/location/update.php",
         {
           method: "POST",
           headers: {
@@ -229,7 +229,7 @@ const Location = () => {
   const fetchDataSite = async () => {
     try {
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/site/list.php",
+        "https://greenenergy.zentexus.in/api/site/list.php",
         {
           method: "POST",
           headers: {

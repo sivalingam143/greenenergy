@@ -86,7 +86,7 @@ const UserCreation = () => {
         }
       } else {
         const response = await fetch(
-          "https://api.demos.srivarugreenenergy.com/user/create.php",
+          "https://greenenergy.zentexus.in/api/user/create.php",
           {
             method: "POST",
             headers: {
@@ -149,7 +149,7 @@ const UserCreation = () => {
       };
       console.log("ji", data);
       const response = await fetch(
-        "https://api.demos.srivarugreenenergy.com/user/update.php",
+        "https://greenenergy.zentexus.in/api/user/update.php",
         {
           method: "POST",
           headers: {

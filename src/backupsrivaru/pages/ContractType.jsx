@@ -107,7 +107,7 @@ const ContractType = () => {
     setLoading(true);
     try {
       const res = await fetch(
-        "https://api.demos.srivarugreenenergy.com/contract_type/list.php",
+        "https://greenenergy.zentexus.in/api/contract_type/list.php",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -172,8 +172,8 @@ const ContractType = () => {
     try {
       const isEdit = Boolean(formData.contract_id || type === "edit");
       const url = isEdit
-        ? "https://api.demos.srivarugreenenergy.com/contract_type/update.php"
-        : "https://api.demos.srivarugreenenergy.com/contract_type/create.php";
+        ? "https://greenenergy.zentexus.in/api/contract_type/update.php"
+        : "https://greenenergy.zentexus.in/api/contract_type/create.php";
 
       // For update, include contract_id
       const body = isEdit
