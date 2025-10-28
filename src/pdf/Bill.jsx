@@ -640,24 +640,24 @@ const Bill = ({ csrEntry }) => {
         <View style={[styles.row, styles.footer]}>
           <View style={[styles.w50, styles.pad5, styles.fs8]}>
             <View style={[styles.padbottom3]}>
-              <Text>SRIVARU GREEN ENERGY SERVICE PRIVATE LIMITED</Text>
+              <Text>GREEN ENERGY SERVICE</Text>
             </View>
             <View style={[styles.padbottom3]}>
-              <Text>219/2, Vairam Nagar, Manickapuram road,</Text>
+              <Text>Virudhunagar,</Text>
             </View>
             <View>
-              <Text>Palladam (T.K), Tirupur (D.T) - 641664.</Text>
+              {/* <Text>Virudhunagar (T.K), Tirupur (D.T) - 641664.</Text> */}
             </View>
           </View>
           <View style={[styles.w45, styles.pad5, styles.fs9]}>
             <View style={[styles.padbottom3]}>
-              <Text>Mobile No: +91 90250 73814, +91 80152 00475</Text>
+              <Text>Mobile No: +91 90251 48394, +91 90422 22080</Text>
             </View>
             <View style={[styles.padbottom3]}>
-              <Text>Mail: info@srivarugreenenergy.com</Text>
+              <Text>Mail: support@zentexus.com</Text>
             </View>
             <View>
-              <Text>www.srivarugreenenergy.com</Text>
+              <Text>www.zentexus.com</Text>
             </View>
           </View>
         </View>
